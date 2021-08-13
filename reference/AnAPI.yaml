@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: AnAPI
   version: '1.0'
-  description: Updating- More Changes
+  description: Updating- More Changes Stuff
 servers:
   - url: 'http://localhost:3000'
 paths:
