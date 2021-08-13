@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: AnAPI
   version: '1.0'
+  description: 'Adding more changes! '
 servers:
   - url: 'http://localhost:3000'
 paths:
@@ -186,3 +187,17 @@ components:
         - lastName
         - email
         - emailVerified
+    Group:
+      title: Group
+      type: object
+      properties:
+        id:
+          type: string
+        group_name:
+          type: string
+        created:
+          type: string
+        roles:
+          type: array
+          items:
+            type: string
